@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Keep it in the Ground</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Informational overview of Keep it in the Ground, a movement to help limit our effect on climate change from fossil fuels.">
+	<meta name="author" content="Jacob Larson">
+	<style type="text/css"> </style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/alpha.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+	<!--<script>
+	$(document).ready(function(){
+	$(window).resize(function(){
+
+    $('.hometitle').css({
+        position:'absolute',
+        left: ($(window).width() - $('.hometitle').outerWidth())/2,
+        top: ($(window).height() - $('.hometitle').outerHeight())/2
+    });
+
+});$(window).resize();
+});
+// To initially run the function:
+
+</script>-->
+<script>
+window.smoothScroll = function(target) {
+    var scrollContainer = target;
+    do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+    var targetY = 0;
+    do { //find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+    scroll = function(c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function(){ scroll(c, a, b, i); }, 20);
+    }
+    // start scrolling
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY-80, 0);
+}
+</script>
+</head>
+<body style="margin:0">
+	<div id="wrapper">
+	<div id="logo">
+			<a href="home.html"><img src="img/iconssl.png"></a>
+		</div>
+		
+	<div id="navbar">
+	
+				<div id="items">
+					
+					<a href="overview.html">Overview</a>
+					<a href="who.html">Who</a>
+					<a href="effects.html">Effects</a>
+					<a href="help.html">Help</a>
+				</div>
+			</div>
+			<div id="space"> </div>
+		<div id="maintop">
+		
+			<div id="imgdiv">
+				<button  type="button" onclick="smoothScroll(document.getElementById('content'))" id="myBtn"><img src="img/title.png"></button>
+			</div>
+			
+			<div id="logoimg">
+			<button  type="button" onclick="smoothScroll(document.getElementById('content'))" id="myBtn"><img src="img/SSL.png"></button>
+				
+			</div>
+		</div>
+		<div id="content">
+			<div class="row">
+				<div class="col-12"><h1>End New Fossil Fuel Development</h1> </div>
+				<div class="col-6"><h2>Our climate is at a tipping point.</h2> If we don't quit fossil fuels by midcentury, scientists predict, we'll be locked into a dangerous world of extreme weather, flooded coasts, human health catastrophes and sweeping extinctions of wildlife. Climate change is not a problem for another generation — it's a problem now.
+					<br><br>
+					True to its policy platform of climate denial and America's “energy first” policies, aimed at increasing extraction on public lands, the Trump administration continues to lease more of our public lands and oceans to the fossil fuel industry. Existing leases generate nearly a quarter of all U.S. greenhouse gas pollution while ruining some of our most cherished places, like the American Arctic and Colorado Plateau.
+					<br><br>
+					Destroying our natural heritage to create climate pollution is dangerous public policy. That's why the Center is calling for a halt all new federal fossil fuel leasing on America's public lands and in our oceans.
+					By doing this we can keep 450 billion tons of climate pollution in the ground — an amount that vastly exceeds any reasonable U.S. share of the world's remaining emissions limits. And we can save extensive tracts of our public lands, oceans and wildlife habitat from more fossil fuel industrialization.
+				</div>
+			<div class="col-6"><img src="img/main01.jpg"></div>
+			<div class="col-6"><a href="https://i0.wp.com/richmondvale.org/wp-content/uploads/2016/03/5-Effects-of-Global-Warming-that-will-make-you-think-about-it.jpeg"><img src="img/chart.jpeg"></a></div>
+			
+			
+			
+			</div><div class="footer">
+			</div>
+		</div>
+	</div>
+	
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var logo = document.getElementById("logo");
+var sticky = navbar.offsetTop;
+
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+	maintop.classList.add("extender");
+    navbar.classList.add("sticky");
+	document.getElementById("space").classList.add("visable");
+	
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+
+</html>

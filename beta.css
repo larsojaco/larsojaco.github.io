@@ -1,0 +1,115 @@
+body{
+	background-color:white;
+}
+h1{
+	
+	font-family: 'Montserrat', sans-serif;
+	style:700;
+	
+}
+
+.navtop2 {
+	background-color:black;
+	display:block;
+	height:45px;
+	overflow:visible;
+
+}
+.futur{
+	top:25px;
+	position:relative;
+	display:inline-block;
+	margin-right:25px;
+	margin-bottom:25px;
+}
+.bio{
+	position:relative;
+	display:inline-block;
+	float:left;
+	top: 15px;
+	width:40%;
+	padding-bottom:50px;
+	font-family: 'Montserrat', sans-serif;
+	text-align:left;
+}
+#wrapper2{
+		top:50%;
+		padding-left:25px;
+		width:100%;
+
+}
+.name2 {
+	top:5px;
+	display:inline;
+	font-size:25px;
+	position:relative;
+	padding-left:25px;
+	padding-top:30px;
+	font-family: 'Exo', sans-serif;
+	color:white;
+	text-align:left;
+}
+.soclink{
+	display:inline-block;
+	width:330px;
+	/* background-color:black; */
+	padding-left:20px;
+}
+.soclink a{
+	margin-right:9px;
+}
+.top{
+	float:left;
+	width:453px;
+	/* display:block; */
+}
+.section1{
+	width:100%;
+	text-align:center;
+}
+@media screen and (max-width: 820px) {
+	.work{
+		max-width:45%;
+	}
+	.futur{
+	top:25px;
+	margin-right:25px;
+	width:100%;
+	text-align:center;
+	}
+	
+	.bio{
+	padding-left:0px;
+	top:20px;
+	width:90%;
+	text-align:left;
+	}
+	.top{
+		 display: block;
+    margin-left: -30px;
+    margin-right: auto;
+	}
+	
+}
+@media screen and (max-width: 500px) {
+	top{
+		width:100%;
+		text-align:center;
+	}
+	.work{
+		max-width:100%;
+		}
+	.futur{
+		top:25px;
+		width:77%;
+		height:auto;
+		text-align:center;
+	}
+	
+	.bio{
+		top:0px;
+	}
+		#wrapper2{
+	padding-left:0px;
+	}
+}
