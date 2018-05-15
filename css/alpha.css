@@ -102,7 +102,7 @@ img{
 }
 
 #maintop{
-	background-image: url("../img/mainbg01.jpg");
+	background-image: url("../img1/mainbg01.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
@@ -110,28 +110,28 @@ img{
 	padding-bottom:15%;
 }
 #maintop1{
-	background-image: url("../img/industrysmoke.jpg");
+	background-image: url("../img1/industrysmoke.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	display:block;
 }
 #maintop2{
-	background-image: url("../img/effectsmain.jpg");
+	background-image: url("../img1/effectsmain.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	display:block;
 }
 #maintop3{
-	background-image: url("../img/whomain03.jpg");
+	background-image: url("../img1/whomain03.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	display:block;
 }
 #maintop4{
-	background-image: url("../img/helpmain01.jpg");
+	background-image: url("../img1/helpmain01.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
