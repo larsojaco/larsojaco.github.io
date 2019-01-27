@@ -1,0 +1,339 @@
+html{
+	font-size: 1rem;
+}
+.navbar-brand {
+  float: none;
+  padding: 0px;
+  font-size: 1.25rem;
+  line-height: 0px;
+  height: 75px;
+}
+.mainimg, .HomeMain, .ServicesMain, .GalMain, .AboutMain{
+	background-image: url("../assets/kitchen.jpg");
+	background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 100vh;
+	max-width: 100%;
+	height: 90vh;
+	width:100%;
+	top:0px;
+}
+.MainContent{
+	background-color: white;
+	top:100vh;
+	min-width: 100%;
+}
+.HomeMain{
+	background-image: url("../assets/kitchen.jpg");
+}
+.ServicesMain{
+	background-image: url("../assets/servicesmain2.jpg");
+}
+.ContactMain{
+	background-image: url("../assets/contactmain.jpg");
+}
+.GalMain{
+	background-image: url("../assets/servicesmain.jpg");
+}
+.AboutMain{
+	background-image: url("../assets/aboutmain1.jpg");
+}
+/*.mainimg:after{
+	content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: black;
+  opacity: 0.6;
+}*/
+.abouttestimonial p{
+	padding: 50px 20px 20px 0px;
+	font-family: 'Nunito', sans-serif;
+	font-style:italic;
+	font-size:20px;
+}
+.testimonial{
+	background-image: url("../assets/colorswatch.jpg");
+	background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 100vh;
+	max-width: 100%;
+	width:100%;
+	margin-top: 25px;
+}
+.testimonial p{
+	padding: 30px;
+	font-size: 18px;
+	font-style: italic;
+
+}
+.navbar{
+	font-family:'Nunito', sans-serif;
+	font-size:18px;
+	position: sticky;
+	top:0;
+	z-index: 5000;
+	margin-bottom: 0px;
+	background-color: rgba(248,249,250, 0.9);
+}
+h1{
+	font-family:'Nunito', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	widows: 2;
+}
+h2{
+	font-family:'Nunito', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+.ServicesCap h2{
+	font-weight: bold;
+	font-size: 18px;
+
+}
+h3{
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	widows: 3;
+}
+p{
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	widows: 3;
+}
+footer{
+	padding-top: 30px;
+	background-color: #363636;
+	color: #c4c4c4;
+}
+footer h2{
+	font-size: 18px;
+}
+footer p{
+	padding-top:10px;
+	font-size: 12px;
+}
+nav{
+	position: sticky;
+	position: -webkit-sticky;
+	top:0;
+
+}
+.bg-light {
+    background-color: rgba(248,249,250, 0.9);
+}
+.maincap{
+	padding-top: 25px;
+	padding-bottom: 5px;
+	text-align: left;
+	position: relative;
+}
+.brush img{
+	max-width: 100%;
+}
+.ContactForm{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.ServicesCap{
+	padding-top: 25px;
+	padding-bottom: 5px;
+	text-align: left;
+	position: relative;
+}
+.bodytext{
+	text-align: left;
+	position: relative;
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+.ServicesText{
+	text-align: left;
+	position: relative;
+	padding-bottom: 15px;
+}
+.request{
+	border-width: 2px;
+	border-color: #959595;
+	border-style: solid;
+	padding:3px;
+	margin-bottom: 25px;
+	width:200px;
+	text-align: center;
+}
+.request a:visited, .request a:hover, .request a:link{
+	color:black;
+}
+.mainrequest{
+	border-width: 2px;
+	border-color: #959595;
+	border-style: solid;
+	padding:3px;
+	margin-bottom: 25px;
+	width:200px;
+	text-align: center;
+	position: absolute;
+	top:70%;
+}
+.mainrequest a:visited, .mainrequest a:hover, .mainrequest a:link{
+	color:white;
+}
+.sidelinks{
+	padding-top: 25px;
+}
+
+.abouttext{
+	text-align: left;
+	position: relative;
+	padding-bottom: 15px;
+	padding-top: 6px;
+}
+.abouttext img{
+	padding-top: 20px;
+	max-width: 100%;
+	height: auto;
+}
+.abouttext h1{
+	padding-top: 50px;
+	font-size: 20px; 
+}
+.contacttext{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.pgbuttons{
+	overflow: hidden;
+}
+.buttonimg{
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+.buttons img{
+	max-width: 100%;
+	height: auto;
+	padding-bottom: 25px;
+	position: relative;
+	text-align:center;
+}
+.buttons::after {display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #383838 155%);
+  margin-top: -150px;
+  height: 125px;
+  width: 100%;
+  margin-bottom: 25px;
+  content: '';
+}
+.centered {
+	font-family: 'Roboto Condensed', sans-serif;
+   position: absolute;
+  bottom: 8px;
+  left: 25px;
+  color:#f1f1f1;
+  z-index: 1;
+  padding-bottom: 25px;
+}
+.servicessideimg{
+	padding-top: 25px;
+}
+.services{
+	background-image: url("../assets/redbucket.jpg");
+}
+.interior{
+	background-image: url("../assets/interior.jpg");
+
+}
+.exterior{
+	background-image: url("../assets/brownhouse.jpg");
+}
+.bg-light {
+    background-color: rgba(248,249,250, 0.9);
+}
+.clearfix:before,
+.clearfix:after,
+.dl-horizontal dd:before,
+.dl-horizontal dd:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after,
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after,
+.btn-toolbar:before,
+.btn-toolbar:after,
+.btn-group-vertical > .btn-group:before,
+.btn-group-vertical > .btn-group:after,
+.nav:before,
+.nav:after,
+.navbar:before,
+.navbar:after,
+.navbar-header:before,
+.navbar-header:after,
+.navbar-collapse:before,
+.navbar-collapse:after,
+.pager:before,
+.pager:after,
+.panel-body:before,
+.panel-body:after,
+.modal-header:before,
+.modal-header:after,
+.modal-footer:before,
+.modal-footer:after {
+  display: none;
+  content: "none";
+}
+label{
+	padding-top:.5rem;
+}
+.maintext{
+padding-top:30vh;
+color:white;
+font-family: 'Roboto', sans-serif;
+font-size: 50px;
+
+}
+.footest{
+	border-width: 2px;
+	border-color: #959595;
+	border-style: solid;
+	padding:3px;
+	margin-bottom: 25px;
+	width:150px;
+	text-align: center;
+	font-size: 12px;
+}
+.footest a, a:visited, .footest a:hover, .footest a:link{
+	color:#959595;
+}
+.arrow{
+	text-align: center;
+	 position: absolute;
+  top: 85%;
+  
+  background-color: none;
+}
+button{  background-color: Transparent;
+    background-repeat:no-repeat;
+    background-outline;none;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.arrow{
+	opacity: .5;
+}
+.pagetop{}
