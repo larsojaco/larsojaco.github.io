@@ -31,22 +31,25 @@ html{
 }
 .ServicesMain{
 	background-image: url("../assets/servicesmain2.jpg");
+	height: 42vh;
 }
 .ContactMain{
-	background-image: url("../assets/contactmain.jpg");
+	background-image: url("../assets/contactmain2.jpg");
+	height: 42vh;
 }
 .GalMain{
 	background-image: url("../assets/servicesmain.jpg");
 }
 .AboutMain{
 	background-image: url("../assets/aboutmain1.jpg");
+	height: 42vh;
 }
 /*.mainimg:after{
 	content: '';
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100%;≠
   height: 100%;
   background-image: black;
   opacity: 0.6;
@@ -56,6 +59,10 @@ html{
 	font-family: 'Nunito', sans-serif;
 	font-style:italic;
 	font-size:20px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
 }
 .testimonial{
 	background-image: url("../assets/colorswatch.jpg");
@@ -78,6 +85,7 @@ html{
 .navbar{
 	font-family:'Nunito', sans-serif;
 	font-size:18px;
+	position: -webkit-sticky;
 	position: sticky;
 	top:0;
 	z-index: 5000;
@@ -185,6 +193,7 @@ nav{
 	text-align: center;
 	position: absolute;
 	top:70%;
+	border-color: white;
 }
 .mainrequest a:visited, .mainrequest a:hover, .mainrequest a:link{
 	color:white;
@@ -228,6 +237,9 @@ nav{
 }
 .buttons::after {display: block;
   position: relative;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(155%, #383838));
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0, #383838 155%);
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0, #383838 155%);
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #383838 155%);
   margin-top: -150px;
   height: 125px;
@@ -301,9 +313,13 @@ label{
 .maintext{
 padding-top:30vh;
 color:white;
-font-family: 'Roboto', sans-serif;
+font-family: 'Lora', serif;
 font-size: 50px;
+color: white;
 
+}
+.moved{
+	padding-top: 15vh;
 }
 .footest{
 	border-width: 2px;
@@ -318,6 +334,13 @@ font-size: 50px;
 .footest a, a:visited, .footest a:hover, .footest a:link{
 	color:#959595;
 }
+footer h3{
+	font-size: 12px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: normal;
+	padding-top: 10px;
+	line-height: 1.5;
+}
 .arrow{
 	text-align: center;
 	 position: absolute;
@@ -325,9 +348,10 @@ font-size: 50px;
   
   background-color: none;
 }
-button{  background-color: Transparent;
+button{  
+	background-color: Transparent;
     background-repeat:no-repeat;
-    background-outline;none;
+    background-outline:none;
     border: none;
     cursor:pointer;
     overflow: hidden;
