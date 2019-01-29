@@ -13,7 +13,8 @@ html{
 	background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: contain;
+	background-position:cover;
 	background-repeat: no-repeat;
 	max-height: 100vh;
 	max-width: 100%;
