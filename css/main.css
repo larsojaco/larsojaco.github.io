@@ -24,11 +24,7 @@ html{
 	
 
 }
-@media (max-width: @iphone-screen){
-	.mainimg{
-	background-attachment: scroll;
-	}
-}
+
 .mainimg :after{
   position: absolute;
   width: 100vw;
@@ -36,6 +32,11 @@ html{
   left:0;
   right:0;
   content: '';
+}
+@media (max-width: @iphone-screen){
+	.mainimg{
+	background-attachment: scroll;
+	}
 }
 .MainContent{
 	background-color: white;
