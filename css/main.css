@@ -9,7 +9,7 @@ html{
   height: 75px;
 }
 .mainimg, .HomeMain, .ServicesMain, .GalMain, .AboutMain{
-	background-image: url("../assets/kitchen.jpg") no-repeat center center fixed;
+	background-image: url("../assets/kitchen.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
