@@ -10,19 +10,25 @@ html{
 }
 .mainimg, .HomeMain, .ServicesMain, .GalMain, .AboutMain{
 	background-image: url("../assets/kitchen.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
 	background-attachment: fixed;
-	background-position: center;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	max-height: 100vh;
 	max-width: 100%;
 	height: 90vh;
 	width:100%;
 	top:0px;
+}
+.mainimg :after{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left:0;
+  right:0;
+  content: '';
 }
 .MainContent{
 	background-color: white;
@@ -320,6 +326,7 @@ font-family: 'Lora', serif;
 font-size: 50px;
 color: white;
 text-align: center;
+
 }
 .moved{
 	padding-top: 15vh;
