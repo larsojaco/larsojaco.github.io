@@ -24,7 +24,7 @@ html{
 	
 
 }
-	@media (max-width; @iphone-screen){
+@media (max-width: @iphone-screen){
 	.mainimg{
 	background-attachment: scroll;
 	}
