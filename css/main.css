@@ -22,9 +22,12 @@ html{
 	width:100%;
 	top:0px;
 	
-	@media (max-width; @iphone-screen){
-	background-attachment: scroll;
+
 }
+	@media (max-width; @iphone-screen){
+	.mainimg{
+	background-attachment: scroll;
+	}
 }
 .mainimg :after{
   position: absolute;
