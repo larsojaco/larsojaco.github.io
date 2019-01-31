@@ -21,6 +21,10 @@ html{
 	height: 90vh;
 	width:100%;
 	top:0px;
+	
+	@media (max-width; @iphone-screen){
+	background-attachment: scroll;
+}
 }
 .mainimg :after{
   position: absolute;
